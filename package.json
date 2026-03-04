@@ -1,0 +1,10 @@
+{
+  "name": "mpesa-callback-relay",
+  "version": "1.0.0",
+  "description": "Thin Vercel serverless relay: receives M-Pesa STK callbacks and stores them in Supabase so a local backend can poll for results.",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
